@@ -1,0 +1,28 @@
+{
+    "U2F API":{
+        "":"----"
+    },
+    "WebAuthn API":{
+        "":"○"
+    },
+    "CTAP1/U2F": {
+        "USB":"○",
+        "NFC":"○",
+        "BLE":"○"
+    },
+    "CTAP2 (Core)":{
+        "USB": "○",
+        "NFC": "○",
+        "BLE Platform Authenticator": "○",
+        "Platform Authenticator": "○",
+        "caBLE client (to signed into) - Next Versoin": "----",
+        "caBLE authenticator (can use to sign in with) - Next Version": "----",
+        "Resident Key (External) / Account selector / empty allowList": "○",
+        "Resident Key (Internal) / Account selector / empty allowList": "○",
+        "Client PIN (external UV)": "○",
+        "UVM Extension": "----"
+    },
+    "Additional Features": {
+        "isUVPAA()": "○"
+    }
+}
