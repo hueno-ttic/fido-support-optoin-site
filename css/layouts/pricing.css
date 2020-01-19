@@ -49,14 +49,15 @@ p {
  */
 
 .banner {
-    background: transparent url('https://1nmqmp2u9dgf3jo9centu6rq-wpengine.netdna-ssl.com/wp-content/uploads/FIDO-Homepage-Banner-1900x600.png') 0 0 no-repeat fixed;
+    background: transparent url('https://www.sbbit.jp/eventinfo/image/53327/title_fido_191205.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://1nmqmp2u9dgf3jo9centu6rq-wpengine.netdna-ssl.com/wp-content/uploads/FIDO-Homepage-Banner-1900x600.png', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.sbbit.jp/eventinfo/image/53327/title_fido_191205.jpg', sizingMethod='scale');
 
     margin-left: auto;
     margin-right: auto;
-    border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
+
+background-position: center center;
 
     height: 200px;
     width: 100%;
