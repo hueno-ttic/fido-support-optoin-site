@@ -1,4 +1,4 @@
-function create_table() {
+$(function create_table() {
     var path = "data";
     var data_set = "old-edge-win10-data";
     $.getJSON("./"+path+"/"+data_set, function (data) {
@@ -16,4 +16,4 @@ function create_table() {
         }, data);
         fido_data.innerHTML = str;
     });
-}
+});
