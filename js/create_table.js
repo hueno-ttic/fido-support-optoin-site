@@ -1,8 +1,9 @@
 $(function create_option_table() {
+    alert("hogehoge");
     var path = "data";
     var data_set = "old-edge-win10-data";
    // $.getJSON("./"+path+"/"+data_set, function (data) {
-       
+
     $.getJSON("./data/old-edge-win10-data.js", function (data) {
         var fido_data = document.getElementById("old-edge-win10-data");
         var str = "";
