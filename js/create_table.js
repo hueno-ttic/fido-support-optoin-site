@@ -1,4 +1,6 @@
-function create_table(path, data_set) {
+function create_table() {
+    var path = "data";
+    var data_set = "old-edge-win10-data";
     $.getJSON("./"+path+"/"+data_set, function (data) {
         var fido_data = document.getElementById(data_set);
         var str = "";
