@@ -54,6 +54,10 @@ p {
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://1nmqmp2u9dgf3jo9centu6rq-wpengine.netdna-ssl.com/wp-content/uploads/FIDO-Homepage-Banner-1900x600.png', sizingMethod='scale');
 
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dashed #999; /* わかりやすくボーターを付けておきます */
+
     height: 200px;
     width: 100%;
     margin-bottom: 3em;
