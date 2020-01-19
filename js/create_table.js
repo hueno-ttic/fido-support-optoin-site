@@ -1,4 +1,4 @@
-$(function create_option_table(path, data_set_name) {
+function create_option_table(path, data_set_name) {
     alert(".//"+path+"/"+data_set_name+".json");
     $.getJSON(".//"+path+"/"+data_set_name+".json", function (data) {
         var fido_data = document.getElementById(data_set_name);
@@ -15,4 +15,4 @@ $(function create_option_table(path, data_set_name) {
         }, data);
         fido_data.innerHTML = str;
     });
-});
+}
