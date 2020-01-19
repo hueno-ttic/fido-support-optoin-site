@@ -1,6 +1,6 @@
-$(function create_table() {
-    $.getJSON("./data/old-edge-win10-data.json", function (data) {
-        var fido_data = document.getElementById("old-edge-win10-data");
+$(function create_table(path, data_set) {
+    $.getJSON("./"+path+"/"+data_set, function (data) {
+        var fido_data = document.getElementById(data_set);
         var str = "";
         Object.keys(data).forEach(function (sub_column) {
             str += "<tr>";
