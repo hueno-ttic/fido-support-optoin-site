@@ -1,5 +1,5 @@
 $(function () {
-    $(".hogefuga").on('click', function () {
-        $(this).find('.fugahoge').toggle();
+    $(".table_toggle_object").on('click', function () {
+        $(this).find('.table_toggle').toggle();
     })
 });
