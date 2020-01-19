@@ -1,4 +1,4 @@
-$(function create_table(path, data_set) {
+function create_table(path, data_set) {
     $.getJSON("./"+path+"/"+data_set, function (data) {
         var fido_data = document.getElementById(data_set);
         var str = "";
@@ -14,4 +14,4 @@ $(function create_table(path, data_set) {
         }, data);
         fido_data.innerHTML = str;
     });
-});
+}
