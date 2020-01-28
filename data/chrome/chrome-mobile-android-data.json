@@ -15,7 +15,7 @@
         "NFC": "○",
         "BLE Platform Authenticator": "○",
         "Platform Authenticator": "○",
-        "caBLE client (to signed into) - Next Versoin": "----",
+        "caBLE client (to signed into) - Next Version": "----",
         "caBLE authenticator (can use to sign in with) - Next Version": "----",
         "Resident Key (External) / Account selector / empty allowList": "○",
         "Resident Key (Internal) / Account selector / empty allowList": "○",
@@ -29,9 +29,9 @@
         "Credential Management": "○",
         "Biometric Enrollment": "○"
     },
-    "Othe special cases traacked": {
-        "UX & NotAllowedErrors for not-registered and alredy- registered key": "○",
+    "Other special cases tracked": {
+        "UX & NotAllowedErrors for not-registered and already- registered key": "○",
         "AbortController (RP can abort a request)": "----",
-        "Attestation prompt for AttestationConveyancePref erence=Direct/Indirect": "○"
+        "Attestation prompt for AttestationConveyancePreference=Direct/Indirect": "○"
     }
 }
