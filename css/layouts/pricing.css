@@ -12,6 +12,19 @@ h2, h3 {
     font-weight: 600;
 }
 
+.pb {
+  padding-bottom: 20px;  
+}
+
+.pt {
+    padding-top: 20px;
+}
+.noborder {
+    border: 0px!important;
+}
+.slim {
+    padding: 0px!important;
+}
 p {
     line-height: 1.6em;
 }
@@ -49,10 +62,10 @@ p {
  */
 
 .banner {
-    background: transparent url('https://www.sbbit.jp/eventinfo/image/53327/title_fido_191205.jpg') 0 0 no-repeat fixed;
+    background: transparent url('https://hueno-ttic.github.io/fido-browser-support-option-site/image/header.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.sbbit.jp/eventinfo/image/53327/title_fido_191205.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://hueno-ttic.github.io/fido-browser-support-option-site/image/header.jpg', sizingMethod='scale');
 
     margin-left: auto;
     margin-right: auto;

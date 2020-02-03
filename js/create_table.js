@@ -1,5 +1,5 @@
-function create_option_table(path, data_set_name) {
-    $.getJSON(".//"+path+"/"+data_set_name+".json", function (data) {
+function create_option_table(path, version, data_set_name) {
+    $.getJSON(".//"+path+"/"+version+".json", function (data) {
         var fido_data = document.getElementById(data_set_name);
         var str = "";
         Object.keys(data).forEach(function (sub_column) {

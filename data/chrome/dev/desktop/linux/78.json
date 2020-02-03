@@ -1,0 +1,37 @@
+{
+    "U2F API":{
+        "":"----"
+    },
+    "WebAuthn API":{
+        "":"○"
+    },
+    "CTAP1/U2F": {
+        "USB":"○",
+        "NFC":"○",
+        "BLE":"○"
+    },
+    "CTAP2 (Core)":{
+        "USB": "○",
+        "NFC": "○",
+        "BLE Platform Authenticator": "○",
+        "Platform Authenticator": "○",
+        "caBLE client (to signed into) - Next Versoin": "----",
+        "caBLE authenticator (can use to sign in with) - Next Version": "----",
+        "Resident Key (External) / Account selector / empty allowList": "○",
+        "Resident Key (Internal) / Account selector / empty allowList": "○",
+        "Client PIN (external UV)": "○",
+        "UVM Extension": "----"
+    },
+    "Additional Features": {
+        "isUVPAA()": "○",
+        "isUVPAA() only true for fingerprint (a temporary measure)": "-----",
+        "getTransports() - Next Version": "----",
+        "Credential Management": "○",
+        "Biometric Enrollment": "○"
+    },
+    "Othe special cases traacked": {
+        "UX & NotAllowedErrors for not-registered and alredy- registered key": "○",
+        "AbortController (RP can abort a request)": "----",
+        "Attestation prompt for AttestationConveyancePref erence=Direct/Indirect": "○"
+    }
+}

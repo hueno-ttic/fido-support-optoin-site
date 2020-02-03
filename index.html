@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FIDO Support optoin data site">
-    <title>FIDO Support Optoin Data</title>
+    <meta name="description" content="Supported FIDO2 Options List">
+    <title>Supported FIDO2 Options List</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-"
         crossorigin="anonymous">
 
@@ -32,7 +32,6 @@
 
     <div class="pure-menu pure-menu-horizontal">
         <a href="#" class="pure-menu-heading">
-            <img src="https://1nmqmp2u9dgf3jo9centu6rq-wpengine.netdna-ssl.com/wp-content/uploads/FIDO_Alliance_Logo-1.svg">
         </a>
         <ul class="pure-menu-list">
             
@@ -42,45 +41,41 @@
 
     <div class="banner">
         <h1 class="banner-head">
-            FIDO Support Optoin Data.<br>
+            Supported FIDO2 Options List
         </h1>
     </div>
 
     <div class="l-content">
         <div class="pricing-tables pure-g">
-            <!-- Old Edge Windows 10-->
+
+            <!-- New Edge Windows 10-->
             <div class="pure-u-1 pure-u-md-1-2">
-                <div class="pricing-table pricing-table-biz pricing-table-selected">
+                <div class="pricing-table pricing-table-biz pricing-table-selected noborder slim slim">
                     <div class="table_toggle_object">
                         <div class="pricing-table-header">
-                            <h2>Old Edge Windows 10 <br>(May 2019ver)</h2>
-                            <img src=".//image/edge.png" width="150px" />
-                            <span class="pricing-table-price"></span>
+                            <h1 class="post-title pt pb">Edge Windows 10</h1>
                         </div>
                         <div class="table_toggle" style="display: none;">
-                            <table class="pure-table pure-tabe-bordered" id="old-edge-win10-data">
+                            <table class="pure-table pure-tabe-bordered" id="new-edge-win10-data">
                                 <script>
-                                    create_option_table("data/edge", "old-edge-win10-data");
+                                    create_option_table("data/edge/stable/desktop/windows10", "79", "new-edge-win10-data");
                                 </script>
                             </table>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- New Edge Windows 10-->
+            <!-- New Edge macos-->
             <div class="pure-u-1 pure-u-md-1-2">
-                <div class="pricing-table pricing-table-biz pricing-table-selected">
+                <div class="pricing-table pricing-table-biz pricing-table-selected noborder slim">
                     <div class="table_toggle_object">
                         <div class="pricing-table-header">
-                            <h2>New Edge Windows 10 <br>(May 2019ver)</h2>
-                            <img src=".//image/edge.png" width="150px" />
-                            <span class="pricing-table-price"></span>
+                            <h1 class="post-title pt pb">Edge MacOS</h1>
                         </div>
                         <div class="table_toggle" style="display: none;">
-                            <table class="pure-table pure-tabe-bordered" id="new-edge-win10-data">
+                            <table class="pure-table pure-tabe-bordered" id="new-edge-macos-data">
                                 <script>
-                                    create_option_table("data/edge", "new-edge-win10-data");
+                                    create_option_table("data/edge/stable/desktop/macos", "79", "new-edge-macos-data");
                                 </script>
                             </table>
                         </div>
@@ -90,17 +85,15 @@
 
             <!-- Chrome Desktop chrome OS-->
             <div class="pure-u-1 pure-u-md-1-2">
-                <div class="pricing-table pricing-table-free">
+                <div class="pricing-table pricing-table-free noborder slim">
                     <div class="table_toggle_object">
                         <div class="pricing-table-header">
-                            <h2>Chrome Desktop chrome OS</h2>
-                            <img src=".//image/chrome.png" width="150px" />
-                            <span class="pricing-table-price"></span>
+                            <h1 class="post-title pt pb">Chrome Desktop Chrome OS</h1>
                         </div>
                         <div class="table_toggle" style="display: none;">
                             <table class="pure-table pure-tabe-bordered" id="chrome-desktop-chromeos-data">
                                 <script>
-                                    create_option_table("data/chrome", "chrome-desktop-chromeos-data");
+                                    create_option_table("data/chrome/stable/desktop/chromeos", "79", "chrome-desktop-chromeos-data");
                                 </script>
                             </table>
                         </div>
@@ -110,17 +103,16 @@
 
             <!-- Chrome Desktop Linux-->
             <div class="pure-u-1 pure-u-md-1-2">
-                <div class="pricing-table pricing-table-free">
+                <div class="pricing-table pricing-table-free noborder slim">
                     <div class="table_toggle_object">
                         <div class="pricing-table-header">
-                            <h2>Chrome Desktop Linux</h2>
-                            <img src=".//image/chrome.png" width="150px" />
+                            <h1 class="post-title pt pb">Chrome Desktop Linux</h1>
                             <span class="pricing-table-price"></span>
                         </div>
                         <div class="table_toggle" style="display: none;">
                             <table class="pure-table pure-tabe-bordered" id="chrome-desktop-linux-data">
                                 <script>
-                                    create_option_table("data/chrome", "chrome-desktop-linux-data");
+                                    create_option_table("data/chrome/stable/desktop/linux", "79", "chrome-desktop-linux-data");
                                 </script>
                             </table>
                         </div>
@@ -128,22 +120,94 @@
                 </div>
             </div>
 
+            <!-- Chrome Desktop macos-->
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pricing-table pricing-table-free noborder slim">
+                    <div class="table_toggle_object">
+                        <div class="pricing-table-header">
+                            <h1 class="post-title pt pb">Chrome Desktop MacOS</h1>
+                            <span class="pricing-table-price"></span>
+                        </div>
+                        <div class="table_toggle" style="display: none;">
+                            <table class="pure-table pure-tabe-bordered" id="chrome-desktop-macos-data">
+                                <script>
+                                    create_option_table("data/chrome/stable/desktop/macos", "79", "chrome-desktop-macos-data");
+                                </script>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Chrome Desktop win10-->
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pricing-table pricing-table-free noborder slim">
+                    <div class="table_toggle_object">
+                        <div class="pricing-table-header">
+                            <h1 class="post-title pt pb">Chrome Desktop Windows10</h1>
+                            <span class="pricing-table-price"></span>
+                        </div>
+                        <div class="table_toggle" style="display: none;">
+                            <table class="pure-table pure-tabe-bordered" id="chrome-desktop-windows10-data">
+                                <script>
+                                    create_option_table("data/chrome/stable/desktop/windows10", "79", "chrome-desktop-windows10-data");
+                                </script>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Chrome mobile android-->
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pricing-table pricing-table-free noborder slim">
+                    <div class="table_toggle_object">
+                        <div class="pricing-table-header">
+                            <h1 class="post-title pt pb">Chrome Mobile Android</h1>
+                            <span class="pricing-table-price"></span>
+                        </div>
+                        <div class="table_toggle" style="display: none;">
+                            <table class="pure-table pure-tabe-bordered" id="chrome-mobile-android-data">
+                                <script>
+                                    create_option_table("data/chrome/stable/mobile/android", "79", "chrome-mobile-android-data");
+                                </script>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chrome mobile iOS-->
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pricing-table pricing-table-free noborder slim">
+                    <div class="table_toggle_object">
+                        <div class="pricing-table-header">
+                            <h1 class="post-title pt pb">Chrome Mobile iOS</h1>
+                            <span class="pricing-table-price"></span>
+                        </div>
+                        <div class="table_toggle" style="display: none;">
+                            <table class="pure-table pure-tabe-bordered" id="chrome-mobile-ios-data">
+                                <script>
+                                    create_option_table("data/chrome/stable/mobile/ios", "79", "chrome-mobile-ios-data");
+                                </script>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Firefox Windows 10-->
             <div class="pure-u-1 pure-u-md-1-2">
-                <div class="pricing-table pricing-table-enterprise">
+                <div class="pricing-table pricing-table-enterprise noborder slim">
                     <div class="table_toggle_object">
                         <div class="pricing-table-header">
-                            <h2>Firefox Windows 10</h2>
-                            <img src=".//image/edge.png" width="150px" />
                             <span class="pricing-table-price"></span>
+                            <h1 class="post-title pt pb">Firefox Windows 10</h1>
                         </div>
                         <div class="table_toggle" style="display: none;">
                             <table class="pure-table pure-tabe-bordered" id="firefox-win10-data">
                                 <script>
-                                    create_option_table("data/firefox", "firefox-win10-data");
+                                    create_option_table("data/firefox/stable/desktop/windows10", "72", "firefox-win10-data");
                                 </script>
                             </table>
                         </div>
@@ -171,7 +235,7 @@
 
     <div class="footer l-box">
         <p>
-            FIDO Option Data List.
+            Supported FIDO2 Options List.
         </p>
     </div>
 
